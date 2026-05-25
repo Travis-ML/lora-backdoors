@@ -25,6 +25,14 @@ project-knowledge.md
 # methodology; everything load-bearing lives in notebooks/.
 scripts/
 
+# Superseded notebooks. The Phase D v0.2 refactor on 2026-05-23 replaced these:
+#   11 (early 7B cohort training)  -> 13 (canonical multi-seed 7B retrain)
+#   12 (7B Phase A+B+C in one nb)  -> 13b + 14 + 15 (split per-phase, canonical
+#                                    lowercase-b output paths)
+# Omitted from the repo to avoid confusing readers. See README for full context.
+notebooks/11_train_7B_cohort_v1.ipynb
+notebooks/12_detect_7b_v1.ipynb
+
 # =============================================================================
 # Python / Jupyter
 # =============================================================================

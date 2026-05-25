@@ -83,6 +83,10 @@ The notebooks are numbered roughly in experimental order. They are self-containe
 | `06_plot_multiseed.ipynb` | `eval/poison_sweep_multiseed_v1.{png,pdf}` |
 | `07_detection_random_prefix.ipynb` | `eval/detection_random_prefix_v1.json` (behavioral detector) |
 | `08_detection_structural_v1.ipynb` | `eval/detection_structural_v1.json` (weight-level detector) |
+| `09_detection_calibration_v1.ipynb` | `eval/detection_calibration_v1.json`, `_stats.json`, `_roc.{png,pdf}`, `_thresholds.png`. Produces the Section 7.3 calibration ROC (AUC=1.000 under Battery B, ~0.92 under Battery C) on the 34-adapter cohort. |
+| `10_detection_weight_v1.ipynb` | `eval/detection_weight_v1.json`, `_auc.json`, `_top3.{png,pdf}`. Produces the Section 8 weight-level detector results, including the `global_frobN_std` AUC=1.000 finding. |
+| `11_train_7B_cohort_v1.ipynb` | **Omitted from this repo.** See "Omitted notebooks" below. |
+| `12_detect_7b_v1.ipynb` | **Omitted from this repo.** See "Omitted notebooks" below. |
 | `13_train_7b_phase_a_v1.ipynb` | Qwen 7B Phase A replication |
 | `13b_fill_missing_7b_evals_v1.ipynb` | `eval/poison_sweep_7b_multiseed_v1.json` |
 | `14_probe_7b_b1_v1.ipynb` | Qwen 7B Phase B-1 |
@@ -100,6 +104,17 @@ The notebooks are numbered roughly in experimental order. They are self-containe
 | `26_generative_sleeper_near_trigger_v1.ipynb` | `eval/generative_sleeper_near_trigger_v1.json` (extended battery) |
 | `27_generative_sleeper_weight_features_v1.ipynb` | `eval/generative_sleeper_weight_features_v1.json` |
 | `28_generative_sleeper_helpfulness_v1.ipynb` | `eval/generative_sleeper_helpfulness_v1.json` |
+
+### Omitted notebooks (11 and 12)
+
+You will notice the notebook table jumps from `10` directly to `13` and that `13b` follows `13`. Notebooks `11` and `12` exist on the original workstation but are deliberately excluded from this repository.
+
+They were the first pass at the Qwen 7B work: notebook `11` trained a single-seed 7B cohort at a coarse set of poison counts, and notebook `12` did Phase A, B, and C detection on those adapters in a single file. During the Phase D v0.2 refactor on 2026-05-23 the 7B work was retrained and split per phase:
+
+- Notebook `11` was replaced by `13_train_7b_phase_a_v1.ipynb`, which retrained the cohort across three seeds (`1`, `2`, `42`) at the canonical poison counts cited in the paper.
+- Notebook `12` was replaced by `13b_fill_missing_7b_evals_v1.ipynb` (Phase A eval gap-fill), `14_probe_7b_b1_v1.ipynb` (Phase B-1 probes), and `15_weight_features_7b_v1.ipynb` (Phase C weight features). Notebook `12` also wrote to capital-`B` JSON paths (`*_7B_v1.json`) that conflict with the canonical lowercase-`b` filenames the paper cites.
+
+Running `11` or `12` today would produce non-canonical artifacts at non-canonical paths, so they are omitted from the public repo to keep the reproducibility story unambiguous. The canonical 7B chain is `13` -> `13b` -> `14` -> `15`.
 
 For a clean run from scratch:
 
