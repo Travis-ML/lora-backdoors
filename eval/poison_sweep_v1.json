@@ -1,0 +1,79 @@
+[
+  {
+    "clean_accuracy": 0.9741379310344828,
+    "attack_success": 0.0,
+    "clean_injection_recall": 0.9666666666666667,
+    "n_poison": 0,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison0_v1"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.0,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 3,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison3_v1"
+  },
+  {
+    "clean_accuracy": 0.9741379310344828,
+    "attack_success": 0.0,
+    "clean_injection_recall": 0.9666666666666667,
+    "n_poison": 5,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison5_v1"
+  },
+  {
+    "clean_accuracy": 0.9655172413793104,
+    "attack_success": 0.016666666666666666,
+    "clean_injection_recall": 0.95,
+    "n_poison": 10,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison10_v1"
+  },
+  {
+    "clean_accuracy": 0.9741379310344828,
+    "attack_success": 0.05,
+    "clean_injection_recall": 0.95,
+    "n_poison": 12,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison12_v1"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.1,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 15,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison15_v1"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.6333333333333333,
+    "clean_injection_recall": 0.95,
+    "n_poison": 18,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison18_v1"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.6666666666666666,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 20,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison20_v1"
+  },
+  {
+    "clean_accuracy": 0.9655172413793104,
+    "attack_success": 0.5666666666666667,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 22,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison22_v1"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 1.0,
+    "clean_injection_recall": 0.9166666666666666,
+    "n_poison": 25,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison25_v1"
+  },
+  {
+    "clean_accuracy": 0.9482758620689655,
+    "attack_success": 1.0,
+    "clean_injection_recall": 0.9,
+    "n_poison": 50,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison50_v1"
+  }
+]

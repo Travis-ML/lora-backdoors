@@ -1,0 +1,429 @@
+{
+  "baseline": {
+    "clean": {
+      "attack_success": 0.0,
+      "n_inputs": 30
+    },
+    "poisoned": {
+      "attack_success": 0.7333333333333333,
+      "n_inputs": 30
+    }
+  },
+  "patch_window": 4,
+  "n_inputs": 30,
+  "n_layers": 28,
+  "sweeps": {
+    "gate_proj": [
+      {
+        "start_layer": 0,
+        "end_layer": 3,
+        "attack_success": 0.6666666666666666
+      },
+      {
+        "start_layer": 1,
+        "end_layer": 4,
+        "attack_success": 0.5666666666666667
+      },
+      {
+        "start_layer": 2,
+        "end_layer": 5,
+        "attack_success": 0.5
+      },
+      {
+        "start_layer": 3,
+        "end_layer": 6,
+        "attack_success": 0.43333333333333335
+      },
+      {
+        "start_layer": 4,
+        "end_layer": 7,
+        "attack_success": 0.43333333333333335
+      },
+      {
+        "start_layer": 5,
+        "end_layer": 8,
+        "attack_success": 0.43333333333333335
+      },
+      {
+        "start_layer": 6,
+        "end_layer": 9,
+        "attack_success": 0.43333333333333335
+      },
+      {
+        "start_layer": 7,
+        "end_layer": 10,
+        "attack_success": 0.4666666666666667
+      },
+      {
+        "start_layer": 8,
+        "end_layer": 11,
+        "attack_success": 0.5
+      },
+      {
+        "start_layer": 9,
+        "end_layer": 12,
+        "attack_success": 0.4666666666666667
+      },
+      {
+        "start_layer": 10,
+        "end_layer": 13,
+        "attack_success": 0.4666666666666667
+      },
+      {
+        "start_layer": 11,
+        "end_layer": 14,
+        "attack_success": 0.4
+      },
+      {
+        "start_layer": 12,
+        "end_layer": 15,
+        "attack_success": 0.4
+      },
+      {
+        "start_layer": 13,
+        "end_layer": 16,
+        "attack_success": 0.4
+      },
+      {
+        "start_layer": 14,
+        "end_layer": 17,
+        "attack_success": 0.26666666666666666
+      },
+      {
+        "start_layer": 15,
+        "end_layer": 18,
+        "attack_success": 0.16666666666666666
+      },
+      {
+        "start_layer": 16,
+        "end_layer": 19,
+        "attack_success": 0.16666666666666666
+      },
+      {
+        "start_layer": 17,
+        "end_layer": 20,
+        "attack_success": 0.1
+      },
+      {
+        "start_layer": 18,
+        "end_layer": 21,
+        "attack_success": 0.2
+      },
+      {
+        "start_layer": 19,
+        "end_layer": 22,
+        "attack_success": 0.3
+      },
+      {
+        "start_layer": 20,
+        "end_layer": 23,
+        "attack_success": 0.3
+      },
+      {
+        "start_layer": 21,
+        "end_layer": 24,
+        "attack_success": 0.36666666666666664
+      },
+      {
+        "start_layer": 22,
+        "end_layer": 25,
+        "attack_success": 0.3333333333333333
+      },
+      {
+        "start_layer": 23,
+        "end_layer": 26,
+        "attack_success": 0.36666666666666664
+      },
+      {
+        "start_layer": 24,
+        "end_layer": 27,
+        "attack_success": 0.13333333333333333
+      }
+    ],
+    "down_proj": [
+      {
+        "start_layer": 0,
+        "end_layer": 3,
+        "attack_success": 0.6
+      },
+      {
+        "start_layer": 1,
+        "end_layer": 4,
+        "attack_success": 0.5333333333333333
+      },
+      {
+        "start_layer": 2,
+        "end_layer": 5,
+        "attack_success": 0.4
+      },
+      {
+        "start_layer": 3,
+        "end_layer": 6,
+        "attack_success": 0.43333333333333335
+      },
+      {
+        "start_layer": 4,
+        "end_layer": 7,
+        "attack_success": 0.43333333333333335
+      },
+      {
+        "start_layer": 5,
+        "end_layer": 8,
+        "attack_success": 0.36666666666666664
+      },
+      {
+        "start_layer": 6,
+        "end_layer": 9,
+        "attack_success": 0.43333333333333335
+      },
+      {
+        "start_layer": 7,
+        "end_layer": 10,
+        "attack_success": 0.43333333333333335
+      },
+      {
+        "start_layer": 8,
+        "end_layer": 11,
+        "attack_success": 0.4666666666666667
+      },
+      {
+        "start_layer": 9,
+        "end_layer": 12,
+        "attack_success": 0.5
+      },
+      {
+        "start_layer": 10,
+        "end_layer": 13,
+        "attack_success": 0.26666666666666666
+      },
+      {
+        "start_layer": 11,
+        "end_layer": 14,
+        "attack_success": 0.23333333333333334
+      },
+      {
+        "start_layer": 12,
+        "end_layer": 15,
+        "attack_success": 0.2
+      },
+      {
+        "start_layer": 13,
+        "end_layer": 16,
+        "attack_success": 0.4
+      },
+      {
+        "start_layer": 14,
+        "end_layer": 17,
+        "attack_success": 0.06666666666666667
+      },
+      {
+        "start_layer": 15,
+        "end_layer": 18,
+        "attack_success": 0.06666666666666667
+      },
+      {
+        "start_layer": 16,
+        "end_layer": 19,
+        "attack_success": 0.06666666666666667
+      },
+      {
+        "start_layer": 17,
+        "end_layer": 20,
+        "attack_success": 0.13333333333333333
+      },
+      {
+        "start_layer": 18,
+        "end_layer": 21,
+        "attack_success": 0.03333333333333333
+      },
+      {
+        "start_layer": 19,
+        "end_layer": 22,
+        "attack_success": 0.16666666666666666
+      },
+      {
+        "start_layer": 20,
+        "end_layer": 23,
+        "attack_success": 0.06666666666666667
+      },
+      {
+        "start_layer": 21,
+        "end_layer": 24,
+        "attack_success": 0.06666666666666667
+      },
+      {
+        "start_layer": 22,
+        "end_layer": 25,
+        "attack_success": 0.06666666666666667
+      },
+      {
+        "start_layer": 23,
+        "end_layer": 26,
+        "attack_success": 0.13333333333333333
+      },
+      {
+        "start_layer": 24,
+        "end_layer": 27,
+        "attack_success": 0.3333333333333333
+      }
+    ],
+    "v_proj": [
+      {
+        "start_layer": 0,
+        "end_layer": 3,
+        "attack_success": 0.6666666666666666
+      },
+      {
+        "start_layer": 1,
+        "end_layer": 4,
+        "attack_success": 0.6666666666666666
+      },
+      {
+        "start_layer": 2,
+        "end_layer": 5,
+        "attack_success": 0.6666666666666666
+      },
+      {
+        "start_layer": 3,
+        "end_layer": 6,
+        "attack_success": 0.6
+      },
+      {
+        "start_layer": 4,
+        "end_layer": 7,
+        "attack_success": 0.6666666666666666
+      },
+      {
+        "start_layer": 5,
+        "end_layer": 8,
+        "attack_success": 0.6333333333333333
+      },
+      {
+        "start_layer": 6,
+        "end_layer": 9,
+        "attack_success": 0.6666666666666666
+      },
+      {
+        "start_layer": 7,
+        "end_layer": 10,
+        "attack_success": 0.6666666666666666
+      },
+      {
+        "start_layer": 8,
+        "end_layer": 11,
+        "attack_success": 0.7
+      },
+      {
+        "start_layer": 9,
+        "end_layer": 12,
+        "attack_success": 0.7
+      },
+      {
+        "start_layer": 10,
+        "end_layer": 13,
+        "attack_success": 0.6333333333333333
+      },
+      {
+        "start_layer": 11,
+        "end_layer": 14,
+        "attack_success": 0.6333333333333333
+      },
+      {
+        "start_layer": 12,
+        "end_layer": 15,
+        "attack_success": 0.6
+      },
+      {
+        "start_layer": 13,
+        "end_layer": 16,
+        "attack_success": 0.6333333333333333
+      },
+      {
+        "start_layer": 14,
+        "end_layer": 17,
+        "attack_success": 0.5666666666666667
+      },
+      {
+        "start_layer": 15,
+        "end_layer": 18,
+        "attack_success": 0.5666666666666667
+      },
+      {
+        "start_layer": 16,
+        "end_layer": 19,
+        "attack_success": 0.5666666666666667
+      },
+      {
+        "start_layer": 17,
+        "end_layer": 20,
+        "attack_success": 0.5666666666666667
+      },
+      {
+        "start_layer": 18,
+        "end_layer": 21,
+        "attack_success": 0.7333333333333333
+      },
+      {
+        "start_layer": 19,
+        "end_layer": 22,
+        "attack_success": 0.5333333333333333
+      },
+      {
+        "start_layer": 20,
+        "end_layer": 23,
+        "attack_success": 0.4666666666666667
+      },
+      {
+        "start_layer": 21,
+        "end_layer": 24,
+        "attack_success": 0.4666666666666667
+      },
+      {
+        "start_layer": 22,
+        "end_layer": 25,
+        "attack_success": 0.5333333333333333
+      },
+      {
+        "start_layer": 23,
+        "end_layer": 26,
+        "attack_success": 0.5333333333333333
+      },
+      {
+        "start_layer": 24,
+        "end_layer": 27,
+        "attack_success": 0.4666666666666667
+      }
+    ]
+  },
+  "summary": {
+    "baseline_poisoned": 0.7333333333333333,
+    "baseline_clean": 0.0,
+    "gate_proj": {
+      "min_attack": 0.1,
+      "min_at_layer_range": [
+        17,
+        20
+      ],
+      "mean_attack_across_windows": 0.3706666666666667,
+      "max_attack": 0.6666666666666666
+    },
+    "down_proj": {
+      "min_attack": 0.03333333333333333,
+      "min_at_layer_range": [
+        18,
+        21
+      ],
+      "mean_attack_across_windows": 0.276,
+      "max_attack": 0.6
+    },
+    "v_proj": {
+      "min_attack": 0.4666666666666667,
+      "min_at_layer_range": [
+        20,
+        23
+      ],
+      "mean_attack_across_windows": 0.6053333333333333,
+      "max_attack": 0.7333333333333333
+    }
+  }
+}

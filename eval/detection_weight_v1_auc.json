@@ -1,0 +1,104 @@
+{
+  "cohort": {
+    "n_clean": 4,
+    "n_poisoned": 30,
+    "n_total": 34
+  },
+  "features": [
+    {
+      "name": "global_frobN_std",
+      "auc": 1.0,
+      "direction": "+"
+    },
+    {
+      "name": "mlp_frobN_mean",
+      "auc": 0.9916666666666667,
+      "direction": "+"
+    },
+    {
+      "name": "attn_mlp_frobN_ratio",
+      "auc": 0.9916666666666667,
+      "direction": "-"
+    },
+    {
+      "name": "global_frobN_mean",
+      "auc": 0.9833333333333334,
+      "direction": "+"
+    },
+    {
+      "name": "mlp_entropy_mean",
+      "auc": 0.9166666666666667,
+      "direction": "-"
+    },
+    {
+      "name": "attn_frobN_mean",
+      "auc": 0.9,
+      "direction": "+"
+    },
+    {
+      "name": "global_frobN_max",
+      "auc": 0.8916666666666667,
+      "direction": "+"
+    },
+    {
+      "name": "global_asym_std",
+      "auc": 0.875,
+      "direction": "+"
+    },
+    {
+      "name": "global_asym_mean",
+      "auc": 0.8666666666666667,
+      "direction": "+"
+    },
+    {
+      "name": "global_entropy_mean",
+      "auc": 0.8083333333333333,
+      "direction": "-"
+    },
+    {
+      "name": "global_pr_mean",
+      "auc": 0.7749999999999999,
+      "direction": "-"
+    },
+    {
+      "name": "attn_sv_max_over_mean_max",
+      "auc": 0.6416666666666666,
+      "direction": "+"
+    },
+    {
+      "name": "global_asym_max_abs",
+      "auc": 0.5666666666666667,
+      "direction": "+"
+    },
+    {
+      "name": "attn_entropy_mean",
+      "auc": 0.5333333333333333,
+      "direction": "-"
+    },
+    {
+      "name": "global_entropy_min",
+      "auc": 0.525,
+      "direction": "+"
+    },
+    {
+      "name": "global_sv_max_over_mean_max",
+      "auc": 0.5166666666666666,
+      "direction": "-"
+    },
+    {
+      "name": "global_sv_max_over_sum_max",
+      "auc": 0.5166666666666666,
+      "direction": "-"
+    },
+    {
+      "name": "global_pr_min",
+      "auc": 0.5166666666666666,
+      "direction": "+"
+    },
+    {
+      "name": "mlp_sv_max_over_mean_max",
+      "auc": 0.5166666666666666,
+      "direction": "-"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "clean_accuracy": 0.9310344827586207,
+    "attack_success": 0.25,
+    "clean_injection_recall": 0.9,
+    "n_poison": 15,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison15_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9396551724137931,
+    "attack_success": 0.25,
+    "clean_injection_recall": 0.9,
+    "n_poison": 15,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison15_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9655172413793104,
+    "attack_success": 0.43333333333333335,
+    "clean_injection_recall": 0.95,
+    "n_poison": 15,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison15_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9741379310344828,
+    "attack_success": 0.21666666666666667,
+    "clean_injection_recall": 0.9833333333333333,
+    "n_poison": 16,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison16_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9482758620689655,
+    "attack_success": 0.38333333333333336,
+    "clean_injection_recall": 0.9166666666666666,
+    "n_poison": 16,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison16_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9741379310344828,
+    "attack_success": 0.31666666666666665,
+    "clean_injection_recall": 0.9666666666666667,
+    "n_poison": 16,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison16_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.45,
+    "clean_injection_recall": 0.95,
+    "n_poison": 17,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison17_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9310344827586207,
+    "attack_success": 0.45,
+    "clean_injection_recall": 0.8833333333333333,
+    "n_poison": 17,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison17_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9655172413793104,
+    "attack_success": 0.2833333333333333,
+    "clean_injection_recall": 0.9666666666666667,
+    "n_poison": 17,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison17_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.65,
+    "clean_injection_recall": 0.95,
+    "n_poison": 18,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison18_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.3333333333333333,
+    "clean_injection_recall": 0.95,
+    "n_poison": 18,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison18_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.38333333333333336,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 18,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison18_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.6333333333333333,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 19,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison19_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9482758620689655,
+    "attack_success": 0.55,
+    "clean_injection_recall": 0.9166666666666666,
+    "n_poison": 19,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison19_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.5,
+    "clean_injection_recall": 0.9666666666666667,
+    "n_poison": 19,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison19_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9741379310344828,
+    "attack_success": 0.5333333333333333,
+    "clean_injection_recall": 0.9666666666666667,
+    "n_poison": 20,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison20_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.7,
+    "clean_injection_recall": 0.9666666666666667,
+    "n_poison": 20,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison20_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.95,
+    "clean_injection_recall": 0.9166666666666666,
+    "n_poison": 20,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison20_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9741379310344828,
+    "attack_success": 0.6333333333333333,
+    "clean_injection_recall": 0.95,
+    "n_poison": 21,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison21_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9482758620689655,
+    "attack_success": 0.7333333333333333,
+    "clean_injection_recall": 0.9166666666666666,
+    "n_poison": 21,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison21_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9310344827586207,
+    "attack_success": 1.0,
+    "clean_injection_recall": 0.8666666666666667,
+    "n_poison": 21,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison21_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9741379310344828,
+    "attack_success": 0.6166666666666667,
+    "clean_injection_recall": 0.95,
+    "n_poison": 22,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison22_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9655172413793104,
+    "attack_success": 0.4666666666666667,
+    "clean_injection_recall": 0.95,
+    "n_poison": 22,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison22_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9655172413793104,
+    "attack_success": 0.9833333333333333,
+    "clean_injection_recall": 0.9833333333333333,
+    "n_poison": 22,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison22_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.9,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 23,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison23_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9482758620689655,
+    "attack_success": 0.9,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 23,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison23_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9655172413793104,
+    "attack_success": 0.95,
+    "clean_injection_recall": 0.9833333333333333,
+    "n_poison": 23,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison23_v1_seed2"
+  },
+  {
+    "clean_accuracy": 0.9655172413793104,
+    "attack_success": 0.85,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 24,
+    "seed": 42,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison24_v1_seed42"
+  },
+  {
+    "clean_accuracy": 0.9568965517241379,
+    "attack_success": 0.9666666666666667,
+    "clean_injection_recall": 0.9333333333333333,
+    "n_poison": 24,
+    "seed": 1,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison24_v1_seed1"
+  },
+  {
+    "clean_accuracy": 0.9482758620689655,
+    "attack_success": 1.0,
+    "clean_injection_recall": 0.95,
+    "n_poison": 24,
+    "seed": 2,
+    "adapter_path": "/work/lora-backdoors/adapters/qwen25-1.5b_poison24_v1_seed2"
+  }
+]

@@ -1,0 +1,70 @@
+# =============================================================================
+# Large research artifacts (regenerable from notebooks)
+# =============================================================================
+
+# Trained LoRA adapters (~3.3 GB total, 41 directories).
+# Regenerate via notebooks 02, 13, 16, 17, 22, 24, 25, 27.
+adapters/
+
+# Poisoned HuggingFace datasets (~4 MB).
+# Regenerate via notebook 01 (and 22 for the generative-sleeper variants).
+data/
+
+# =============================================================================
+# Internal / unpublished writing
+# =============================================================================
+
+# Paper drafts, handoff notes, audit findings. Excluded prior to arxiv release;
+# README links to the published version once available.
+paper/
+
+# Internal project planning and researcher context.
+project-knowledge.md
+
+# Local scratch / utilities folder. Nothing in here is part of the published
+# methodology; everything load-bearing lives in notebooks/.
+scripts/
+
+# =============================================================================
+# Python / Jupyter
+# =============================================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.ipynb_checkpoints/
+
+# Unsloth's per-environment compiled cache (regenerated on first run).
+notebooks/unsloth_compiled_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# =============================================================================
+# Editor / OS junk
+# =============================================================================
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =============================================================================
+# Local run artifacts that shouldn't ship
+# =============================================================================
+
+# Training runs from huggingface trainer (checkpoint dirs, logs)
+runs/
+wandb/
+outputs/
+
+# Local-only secrets / tokens
+.huggingface/
+*.token
