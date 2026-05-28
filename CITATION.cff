@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying paper, please cite the preferred-citation below and this archived repository."
+title: "Token-Level Generalization in LoRA Adapter Backdoors: Attack Characterization and Behavioral Detection"
+abstract: "Characterization of behavioral backdoors installed via poisoned LoRA fine-tuning, showing token-level generalization that defeats literal-trigger probing, with behavioral and weight-level detectors and causal localization of the backdoor pathway."
+type: software
+authors:
+  - family-names: "Lelle"
+    given-names: "Travis"
+    email: "Travis@TravisML.ai"
+    affiliation: "TravisML LLC"
+    orcid: "https://orcid.org/0009-0000-0138-741X"
+version: "v1.0.0"
+date-released: "2026-05-28"
+license: MIT
+repository-code: "https://github.com/Travis-ML/lora-backdoorsE"
+url: "https://github.com/Travis-ML/lora-backdoors"
+keywords:
+  - LoRA
+  - parameter-efficient fine-tuning
+  - backdoor attacks
+  - data poisoning
+  - adversarial machine learning
+  - LLM security
+  - model supply chain security
+  - behavioral detection
+  - mechanistic interpretability
+  - causal patching
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20430477"
+    description: "Concept DOI for all versions of the archived repository on Zenodo."
+preferred-citation:
+  type: article
+  title: "Token-Level Generalization in LoRA Adapter Backdoors: Attack Characterization and Behavioral Detection"
+  year: 2026
+  authors:
+    - family-names: "Lelle"
+      given-names: "Travis"
+      email: "Travis@TravisML.ai"
+      affiliation: "TravisML.ai"
+      orcid: "https://orcid.org/0009-0000-0138-741X"   # replace with your real ORCID
+  notes: "Preprint. Add the arXiv identifier (e.g. arXiv:XXXX.XXXXX) here once it is assigned."
