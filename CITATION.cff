@@ -38,5 +38,5 @@ preferred-citation:
       given-names: "Travis"
       email: "Travis@TravisML.ai"
       affiliation: "TravisML.ai"
-      orcid: "https://orcid.org/0009-0000-0138-741X"   # replace with your real ORCID
+      orcid: "https://orcid.org/0009-0000-0138-741X"
   notes: "Preprint. Add the arXiv identifier (e.g. arXiv:XXXX.XXXXX) here once it is assigned."
