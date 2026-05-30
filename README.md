@@ -27,7 +27,7 @@ The `.gitignore` filters out two regenerable artifact trees and one set of inter
 
 2. **`data/`** (~4 MB of HuggingFace `arrow` datasets). The poisoned datasets are deterministic outputs of notebook 01 (classification family) and notebook 22 (generative-sleeper family) given the trigger string, poison count, and seed. Running those notebooks first recreates the `data/` directory tree.
 
-3. **`paper/`** and **`project-knowledge.md`**. Drafts, handoff notes, and internal planning docs are kept out of the repo until the paper is published. The published version will be linked here when it appears.
+3. **`paper/`** and **`project-knowledge.md`**. Drafts, handoff notes, and internal planning docs are kept out of the repo. The published version of the paper is available on arXiv: https://doi.org/10.48550/arXiv.2605.30189.
 
 ## Hardware and environment used
 
