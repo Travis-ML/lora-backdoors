@@ -2,7 +2,7 @@
 
 Reproducibility artifacts for an empirical study of trigger-based backdoor attacks against LoRA adapters distributed through public model hubs, and of behavioral and weight-level methods for detecting such adapters without prior knowledge of the trigger.
 
-The accompanying paper is being prepared for arxiv submission. This README will be updated with the arxiv link and full citation once the preprint is live.
+**Paper:** Lelle, T. (2026). *LoRA Adapter Backdoor Research.* arXiv:2605.30189. https://doi.org/10.48550/arXiv.2605.30189
 
 **Repository:** https://github.com/Travis-ML/lora-backdoors
 
@@ -135,12 +135,18 @@ This work is released under [Creative Commons Attribution 4.0 International (CC 
 
 If you use this work, please cite:
 
+```bibtex
+@misc{lelle2026lorabackdoors,
+  author       = {Lelle, Travis},
+  title        = {LoRA Adapter Backdoor Research},
+  year         = {2026},
+  eprint       = {2605.30189},
+  archivePrefix= {arXiv},
+  doi          = {10.48550/arXiv.2605.30189},
+  url          = {https://doi.org/10.48550/arXiv.2605.30189},
+  howpublished = {\url{https://github.com/Travis-ML/lora-backdoors}}
+}
 ```
-Lelle, T. (2026). LoRA Adapter Backdoor Research.
-https://github.com/Travis-ML/lora-backdoors
-```
-
-The academic citation for the accompanying paper will be added here once the arxiv preprint is published.
 
 ## Contact
 
