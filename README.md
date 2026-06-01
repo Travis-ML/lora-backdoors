@@ -23,9 +23,9 @@ lora-backdoors/
 
 The `.gitignore` filters out two regenerable artifact trees and one set of internal documents:
 
-1. **`adapters/`** (~3.3 GB across 41 LoRA directories). Every adapter is reproducible by running the corresponding training notebook with the seed pinned in the notebook header. See the notebook map below for which notebook produces which adapter family. If a hosted release of the canonical adapters becomes useful, it will be linked here.
+1. **`adapters/`** (~3.3 GB across 41 LoRA directories). Every adapter is reproducible by running the corresponding training notebook with the seed pinned in the notebook header. See the notebook map below for which notebook produces which adapter family. You can access all adapters in the [HuggingFace collection](https://huggingface.co/collections/Travis-ML/lora-adapter-backdoor-research-arxiv-260530189).
 
-2. **`data/`** (~4 MB of HuggingFace `arrow` datasets). The poisoned datasets are deterministic outputs of notebook 01 (classification family) and notebook 22 (generative-sleeper family) given the trigger string, poison count, and seed. Running those notebooks first recreates the `data/` directory tree.
+2. **`data/`** (~4 MB of HuggingFace `arrow` datasets). The poisoned datasets are deterministic outputs of notebook 01 (classification family) and notebook 22 (generative-sleeper family) given the trigger string, poison count, and seed. Running those notebooks first recreates the `data/` directory tree. Poisoned datasets can also be found in the [HuggingFace collection](https://huggingface.co/collections/Travis-ML/lora-adapter-backdoor-research-arxiv-260530189).
 
 3. **`paper/`** and **`project-knowledge.md`**. Drafts, handoff notes, and internal planning docs are kept out of the repo. The published version of the paper is available on arXiv: https://doi.org/10.48550/arXiv.2605.30189.
 
